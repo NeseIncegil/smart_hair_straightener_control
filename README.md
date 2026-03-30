@@ -55,7 +55,7 @@ It allows:
 
 ---
 
-## 🔄 Communication Protocol
+## Communication Protocol
 
 ### Commands (Java → Arduino)
 | Command | Meaning |
@@ -66,11 +66,26 @@ It allows:
 | 4 | Reset |
 
 ### Responses (Arduino → Java)
-- "POWER ON"  
-- "POWER OFF"  
-- "HEATING MODE"  
-- "RESET"  
+- "POWER ON"
+- "POWER OFF"
+- "HEATING MODE"
+- "RESET"
 
+### Example 1: Communication
+
+1. User clicks "POWER ON" button in the GUI  
+2. Java sends command: "1"  
+3. Arduino receives the command and turns LED ON  
+4. Arduino sends response: "POWER ON"  
+5. GUI displays: Status: POWER ON
+
+### Example 2: Heating Mode
+
+1. User clicks "HEATING MODE"  
+2. Java sends command: "3"  
+3. Arduino blinks LED  
+4. Arduino sends response: "HEATING MODE"  
+5. GUI displays: Status: HEATING MODE
 ---
 
 ## ▶️ How to Run
