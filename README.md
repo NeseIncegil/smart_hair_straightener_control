@@ -1,31 +1,27 @@
-Smart Hair Straightener Control System
+# Smart Hair Straightener Control System
 
-📌 Description
-
-This project is a smart hair straightener control system developed using Java Swing GUI and Arduino. It allows users to control the device and receive real-time feedback through serial communication.
+## 📌 Description
+This project is a smart hair straightener control system developed using Java Swing GUI and Arduino. The system allows users to control the device through a graphical interface and receive real-time feedback via serial communication.
 
 ---
 
-🛠 Technologies Used
-
+## 🛠 Technologies Used
 - Java (Swing GUI)
 - Arduino
 - Serial Communication (USB / COM Port)
 
 ---
 
-⚙️ Features
-
-- Power ON → LED turns ON
-- Power OFF → LED turns OFF
+## ⚙️ Features
+- Power ON → Device turns ON (LED ON)
+- Power OFF → Device turns OFF (LED OFF)
 - Heating Mode → LED blinks
-- Reset → LED turns OFF
+- Reset → System resets (LED OFF)
 - Real-time status feedback displayed in GUI
 
 ---
 
-🔌 Hardware Setup
-
+## 🔌 Hardware Setup
 - Arduino Uno
 - LED
 - Resistor (220Ω)
@@ -33,41 +29,45 @@ This project is a smart hair straightener control system developed using Java Sw
 
 ---
 
-▶️ How to Run
-
-1. Connect Arduino to the computer via USB
-2. Upload the Arduino code using Arduino IDE
-3. Close Arduino IDE
-4. Run the Java application
-5. Select the correct COM port
-6. Use the GUI buttons to control the system
+## 📤 How to Upload Arduino Code
+1. Open Arduino IDE  
+2. Select the correct board (Arduino Uno)  
+3. Select the correct COM port  
+4. Upload the `.ino` file  
 
 ---
 
-📡 Communication Protocol
-
-Commands (Java → Arduino)
-
-- "1" → POWER ON
-- "2" → POWER OFF
-- "3" → HEATING MODE
-- "4" → RESET
-
-Responses (Arduino → Java)
-
-- "POWER ON"
-- "POWER OFF"
-- "HEATING MODE"
-- "RESET"
+## ▶️ How to Run
+1. Connect Arduino to the computer via USB  
+2. Upload the Arduino code  
+3. Close Arduino IDE  
+4. Run the Java application  
+5. Select the correct COM port  
+6. Use GUI buttons to control the system  
 
 ---
 
-🖥 GUI Screenshot
+## 🔄 Communication Protocol
 
-![GUI](Hair straightener_GUI screenshot.jpeg)
+### Commands (Java → Arduino)
+- "1" → POWER ON  
+- "2" → POWER OFF  
+- "3" → HEATING MODE  
+- "4" → RESET  
+
+### Responses (Arduino → Java)
+- "POWER ON"  
+- "POWER OFF"  
+- "HEATING MODE"  
+- "RESET"  
 
 ---
 
-🎯 Purpose
+## 🖥 GUI Screenshot
 
-This project simulates a smart hair straightener control system using bidirectional communication between Java GUI and Arduino.
+![GUI](hairstraightener_gui_screenshot.jpeg)
+
+---
+
+## 🎯 Purpose
+This project demonstrates a smart hair straightener control system where a Java GUI communicates with an Arduino via serial communication. It allows users to control the device (power and heating) and receive real-time status feedback.
