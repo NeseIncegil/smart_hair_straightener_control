@@ -90,7 +90,7 @@ It allows:
 ---
 
 ## 🖥️ GUI Screenshot
-![GUI](hairstraightener_gui_screenshot.jpeg)
+![GUI](gui.png)
 
 ---
 
@@ -117,6 +117,6 @@ Users can control the device (power and heating mode) through the interface, and
 .
 ├── HairStraightenerGUI.java
 ├── hair_straightener_control.ino
-├── hairstraightener_gui_screenshot.jpeg
+├── gui.png
 └── README.md
 ```
