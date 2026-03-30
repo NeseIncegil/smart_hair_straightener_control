@@ -113,9 +113,10 @@ Users can control the device (power and heating mode) through the interface, and
 ---
 
 ## 📁 Project Structure
+```
 .
 ├── HairStraightenerGUI.java
 ├── hair_straightener_control.ino
 ├── hairstraightener_gui_screenshot.jpeg
 └── README.md
-
+```
